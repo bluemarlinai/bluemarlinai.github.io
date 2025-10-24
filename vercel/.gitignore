@@ -3,6 +3,5 @@ node_modules
 .out
 dist
 build
-.env.local
 .DS_Store
 .vscode
