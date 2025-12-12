@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/staging/(.*)",
+      "destination": "https://ltl-staging.stefli.com/$1"
+    },
+    {
       "source": "/(.*)",
-      "destination": "https://47.101.153.21/$1"
+      "destination": "https://ltl.stefli.com/$1"
     }
   ]
 }
