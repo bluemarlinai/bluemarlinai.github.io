@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/staging/api/(.*)",
-      "destination": "https://ltl-staging.stefli.com/api/$1"
+      "destination": "http://47.101.153.21:18080/api/$1"
     },
     {
       "source": "/api/(.*)",
-      "destination": "https://ltl.stefli.com/api/$1"
+      "destination": "http://47.101.153.21:16060/api/$1"
     }
   ]
 }
